@@ -5,8 +5,8 @@
 #include <qwt_math.h>
 #include <qcolor.h>
 #include <qpainter.h>
-#include <qapplication.h>
-#include <qframe.h>
+#include <qt5/QtWidgets/qapplication.h>
+#include <qt5/QtWidgets/qframe.h>
 
 //------------------------------------------------------------
 //      curvdemo1

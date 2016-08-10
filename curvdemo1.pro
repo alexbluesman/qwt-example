@@ -7,9 +7,11 @@
 # modify it under the terms of the Qwt License, Version 1.0
 ################################################################
 
-include( $${PWD}/../examples.pri )
-
 TARGET  = curvdemo1
+
+QT += core gui widgets
+
+LIBS += -lqwt
 
 SOURCES = \
     curvdemo1.cpp
